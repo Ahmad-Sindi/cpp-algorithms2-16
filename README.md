@@ -1,6 +1,6 @@
 # Algorithm Challenge #16 – Generate All 3-Letter Words (AAA → ZZZ)
 -
-🔡 **Problem Description**
+ **Problem Description**
 -
 This program generates and prints all possible 3-letter combinations made from
 uppercase English alphabet letters (A to Z).
