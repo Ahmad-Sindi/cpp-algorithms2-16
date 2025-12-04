@@ -1,24 +1,28 @@
-# Algorithm Challenge #16 – Generate All 3-Letter Words (AAA → ZZZ)
--
- **Problem Description**
--
-This program generates and prints all possible 3-letter combinations made from
-uppercase English alphabet letters (A to Z).
-
-A total of **17,576 words** are produced using triple nested loops.
-
-
-
-💡 **What You’ll Learn**
+Algorithm Challenge #16 – Print All 3-Letter Words (AAA to ZZZ)
 --
-- Working with ASCII character ranges  
-- Using nested loops efficiently  
-- Building string combinations programmatically  
-- Understanding combinatorial generation  
-- Writing clean, modular C++ functions  
+🧮 Problem Description
+-
+This program generates and prints every possible 3-letter combination made from uppercase English letters (A to Z).
 
+The algorithm uses three nested loops, each responsible for one letter of the word:
 
-🧩 **Example Output**
+1️⃣ First loop → controls the first letter
+
+2️⃣ Second loop → controls the second letter
+
+3️⃣ Third loop → controls the third letter
+
+This produces all combinations from AAA → AAB → ... → ZZX → ZZY → ZZZ, totaling 17,576 words. 
+
+💡 What You’ll Learn
+-
+Working with ASCII character ranges
+Using nested loops efficiently
+Generating combinatorial sequences
+Pattern construction using characters
+Clean and modular C++ function design
+
+🧩 Example Output
 -
 AAA
 
@@ -28,33 +32,33 @@ AAC
 
 ...
 
+ZZX
+
 ZZY
 
 ZZZ
 
 
 📂 File Information
---
-- Language: C++  
-- File Name: print_all_words_AAA_ZZZ.cpp  
-- Challenge Number: #11  
+-
+Language: C++
 
+File Name: print_words_AAA_to_ZZZ.cpp
 
-💬 **Notes**
+Challenge Number: #11
 
-This challenge is excellent for practicing nested loops and pattern generation.  
-It also helps reinforce logic building and systematic algorithm design.
+💬 Notes
+-
+This challenge is excellent for learning how to systematically generate combinations.
+It also strengthens logical thinking and provides a foundation for more advanced combinatorial algorithms.
 
----
-
-🔗 **GitHub Repository**
---
+🔗 GitHub Repository
+-
 www.linkedin.com/in/ahmad-sindi-61550b325
 
----
 
 🏷️ Tags
 -
-#Cpp #Algorithms #Combinatorics #CodingChallenge  
-#ProgrammingBasics #LogicBuilding #CleanCode #SoftwareDevelopment  
-#DeveloperJourney #STEM #LearnToCode #CodeNewbie
+#Cpp #Algorithms #Combinatorics #StringGeneration
+#PatternBuilding #ProblemSolving #LogicBuilding
+#ProgrammingBasics #CleanCode #STEM #CodeNewbie
